@@ -1,22 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
 
-    <title>John's Website</title>
-</head>
+    <title>John Cambefort</title>
+  </head>
 
-<body>
-    <h1>Yo yo!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-</body>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">John Cambefort</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Projects</a>
+            <a class="nav-link active" aria-current="page" href="#">Contemporary Dance</a>
+            <a class="nav-link active" aria-current="page" href="#">Neat Resources</a>
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
 
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- top row: profile pic, paragraph and 2 flanking spacers -->
+    <div class="container-fluid">
+      <div class="row mb-4">
+        <div class="row mb-5"></div> <!-- should we get rid of this row? -->
+        <div class="col-md-1"></div> <!-- left spacer -->
+        <div class="col-md-5">
+          <figure>
+            <img
+              src="images/profile_pic.jpg"
+              width="100%"
+              align="right"
+              max-height="auto"
+              style="padding: 10px 10px 10px 10px;"
+            />
+            <!-- <figcaption>Image Credits: John Schurer</figcaption> -->
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <p>Welcome to my new website! As you can tell, it is currently a work-in-progress (in its very early stages).
+            Nonetheless, I'm super excited to share about my life, projects I'm working on, things I think about,
+             and to sharpen my HTML/CS/JS skills along the way!</p>
+        </div>
+        <div class="col-md-2"></div> <!-- right spacer -->
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
