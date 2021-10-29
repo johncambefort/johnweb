@@ -9,10 +9,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
 
-    <title>John Cambefort</title>
+    <title>John's Website'</title>
   </head>
 
   <body>
@@ -34,10 +40,13 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">Projects</a>
-            <a class="nav-link active" aria-current="page" href="#">Contemporary Dance</a>
-            <a class="nav-link active" aria-current="page" href="#">Neat Resources</a>
+            <a class="nav-link active" aria-current="page" href="#"
+              >Contemporary Dance</a
+            >
+            <a class="nav-link active" aria-current="page" href="#"
+              >Neat Resources</a
+            >
             <a class="nav-link active" aria-current="page" href="#">Contact</a>
-
           </div>
         </div>
       </div>
@@ -46,28 +55,58 @@
     <!-- top row: profile pic, paragraph and 2 flanking spacers -->
     <div class="container-fluid">
       <div class="row mb-4">
-        <div class="row mb-5"></div> <!-- should we get rid of this row? -->
-        <div class="col-md-1"></div> <!-- left spacer -->
+        <div class="row mb-5"></div>
+        <!-- should we get rid of this row? -->
+        <div class="col-md-1"></div>
+        <!-- left spacer -->
         <div class="col-md-5">
           <figure>
             <img
               src="images/profile_pic.jpg"
-              width="100%"
+              width="80%"
               align="right"
               max-height="auto"
-              style="padding: 10px 10px 10px 10px;"
+              style="padding: 10px 10px 10px 10px"
             />
             <!-- <figcaption>Image Credits: John Schurer</figcaption> -->
           </figure>
         </div>
         <div class="col-md-4">
-          <p>Welcome to my new website! As you can tell, it is currently a work-in-progress (in its very early stages).
-            Nonetheless, I'm super excited to share about my life, projects I'm working on, things I think about,
-             and to sharpen my HTML/CS/JS skills along the way!</p>
+          <p>
+            Welcome to my new website! As you can tell, it is currently a
+            work-in-progress (in its very early stages). Nonetheless, I'm super
+            excited to share about my life, projects I'm working on, things I
+            think about, and to sharpen my HTML/CS/JS skills along the way!
+          </p>
         </div>
-        <div class="col-md-2"></div> <!-- right spacer -->
+        <div class="col-md-2"></div>
+        <!-- right spacer -->
       </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start">
+      <div class="container d-flex justify-content-center">
+        <a
+          class="btn btn-rounded btn-outline-dark btn-floating m-1"
+          href="https://github.com/johncambefort"
+          role="button"
+          ><i class="fab fa-github"></i>
+        </a>
+        <a
+          class="btn btn-rounded btn-outline-dark btn-floating m-1"
+          href="https://www.linkedin.com/in/john-cambefort/"
+          role="button"
+          ><i class="fab fa-linkedin"></i>
+        </a>
+        <a
+        class="btn btn-rounded btn-outline-dark btn-floating m-1"
+        href="mailto:jcambefort@middlebury.edu"
+        role="button"
+        ><i class="far fa-envelope"></i>
+      </a>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
